@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nisa Qur'an Hadis Academy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            background-image: url('background-image.jpg'); /* Ganti dengan path gambar background */
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        header {
+            background-color: rgba(44, 62, 80, 0.8); /* Transparansi untuk melihat background */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            margin: 5px 0;
+            font-size: 24px;
+        }
+        .foto-profil {
+            border-radius: 50%;
+            width: 50px; /* Ukuran lebih kecil */
+            height: 50px;
+            object-fit: cover;
+            margin-bottom: 5px;
+        }
+        nav {
+            background-color: rgba(39, 174, 96, 0.9); /* Transparansi untuk melihat background */
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 12px 14px;
+            text-decoration: none;
+            font-size: 14px; /* Ukuran font sesuai */
+        }
+        nav ul li a:hover {
+            background-color: #16a085;
+        }   
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            background-color: rgba(39, 174, 96, 0.9);
+        }
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            background-color: rgba(39, 174, 96, 0.9);
+            max-height: 300px; /* Batas tinggi maksimal untuk scroll */
+            overflow-y: auto;  /* Aktifkan scroll vertikal */
+            z-index: 1000; /* Menyediakan lapisan di atas elemen lain */
+        }
+
+        nav ul li ul li {
+            float: none;
+            padding: 5px 10px; /* Tambahkan padding untuk spasi */
+        }
+        nav ul li:hover ul {
+            display: block;
+        }
+        nav ul li ul li {
+            float: none;
+        }
+        section {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Latar belakang putih transparan untuk konten */
+            margin: 20px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: rgba(44, 62, 80, 0.9); /* Transparansi untuk melihat background */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="foto-profil.png" alt="Foto Profil" class="foto-profil"> <!-- Ganti dengan path gambar profil -->
+        <h1>Nisa Qur'an Hadis Academy</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li>
+                <a href="#">Materi</a>
+                <ul>
+                    <li>
+                        <a href="#">Semester 1</a>
+                        <ul>
+                            <li><a href="#">Hakikat Penciptaan Manusia</a></li>
+                            <li><a href="#">Hormat dan Patuh kepada Orang Tua dan Guru</a></li>
+                            <li><a href="#">Menghindari Pergaulan Bebas dan Perbuatan Keji</a></li>
+                            <li><a href="#">Toleransi Beragama</a></li>
+                            <li><a href="#">Adab Mencari Ilmu</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Semester 2</a>
+                        <ul>
+                            <li><a href="#">Bertanggung Jawab Menjaga Amanat</a></li>
+                            <li><a href="#">Berkompetisi dalam Kebaikan</a></li>
+                            <li><a href="#">Etos Kerja Pribadi Muslim</a></li>
+                            <li><a href="#">Makanan yang Halal dan Baik</a></li>
+                            <li><a href="#">Bersyukur kepada Allah</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Modul Ajar</a>
+                <ul>
+                    <li><a href="#">Ebook</a></li>
+                    <li><a href="#">RPP/Modul Ajar</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Penugasan</a>
+                <ul>
+                    <li><a href="#">Penugasan 1</a></li>
+                    <li><a href="#">Penugasan 2</a></li>
+                    <li><a href="#">Penugasan 3</a></li>
+                    <li><a href="#">Penugasan 4</a></li>
+                    <li><a href="#">Penugasan 5</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Video Pembelajaran</a>
+                <ul>
+                    <li><a href="#">Hakikat Penciptaan Manusia</a></li>
+                    <li><a href="#">Hormat dan Patuh kepada Orang Tua dan Guru</a></li>
+                    <li><a href="#">Menghindari Pergaulan Bebas dan Perbuatan Keji</a></li>
+                    <li><a href="#">Toleransi Beragama</a></li>
+                    <li><a href="#">Adab Mencari Ilmu</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Bank Soal</a>
+                <ul>
+                    <li><a href="#">Bank Soal 1</a></li>
+                    <li><a href="#">Bank Soal 2</a></li>
+                    <li><a href="#">Bank Soal 3</a></li>
+                    <li><a href="#">Bank Soal 4</a></li>
+                    <li><a href="#">Bank Soal 5</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">FYI</a>
+                <ul>
+                    <li><a href="#">FYI 1</a></li>
+                    <li><a href="#">FYI 2</a></li>
+                    <li><a href="#">FYI 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Keasramaan</a>
+                <ul>
+                    <li><a href="#">Keasramaan 1</a></li>
+                    <li><a href="#">Keasramaan 2</a></li>
+                    <li><a href="#">Keasramaan 3</a></li>
+                    <li><a href="#">Keasramaan 4</a></li>
+                    <li><a href="#">Keasramaan 5</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Aplikasi</a>
+                <ul>
+                    <li><a href="https://link_to_mujam_mufahras">Mu'jam Mufahras</a></li>
+                    <li><a href="https://link_to_maktabah_syamilah">Maktabah Syamilah</a></li>
+                    <li><a href="https://link_to_alquran">Alquran</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Kontak Kami</a></li>
+        </ul>
+    </nav>
+    
+    <section>
+        <h2>Selamat Datang di Nisa Qur'an Hadis Academy</h2>
+        <p>Ini adalah platform belajar online yang menyediakan berbagai materi dan modul ajar untuk mendukung pembelajaran Al-Qur'an dan Hadis.</p>
+    </section>
+    
+    <footer>
+        <p>Alamat: Jl. Insan Cendekia No.16, Kota Kendari | Telepon: 085295087010 | Email: nisacan@gmail.com</p>
+    </footer>
+</body>
+</html>
